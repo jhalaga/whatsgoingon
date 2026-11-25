@@ -1,8 +1,14 @@
-# WhatsGoingOn (`wgo`)
+<p align="center">
+  <img src="assets/icon.png" alt="WhatsGoingOn (wgo) icon" width="128" />
+</p>
 
-[![Rust](https://img.shields.io/badge/Rust-2024-orange?logo=rust)](https://www.rust-lang.org/)
-[![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6?logo=windows)](https://www.microsoft.com/windows)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+<h1 align="center">WhatsGoingOn (<code>wgo</code>)</h1>
+
+<p align="center">
+  <a href="https://www.rust-lang.org/"><img src="https://img.shields.io/badge/Rust-2024-orange?logo=rust" alt="Rust" /></a>
+  <a href="https://www.microsoft.com/windows"><img src="https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6?logo=windows" alt="Windows" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License" /></a>
+</p>
 
 **See every running terminal, `cmd.exe`, PowerShell, WSL, and background dev server on Windows — who started it, what's inside it, and what port it's holding.**
 

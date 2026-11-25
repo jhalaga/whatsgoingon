@@ -14,6 +14,7 @@ eframe = { version = "0.31", default-features = true }
 egui = "0.31"
 sysinfo = "0.33"
 chrono = "0.4"
+image = { version = "0.25", default-features = false, features = ["png"] }
 windows-sys = { version = "0.59", features = [
     "Win32_Foundation",
     "Win32_UI_WindowsAndMessaging",
@@ -23,6 +24,9 @@ windows-sys = { version = "0.59", features = [
     "Win32_NetworkManagement_IpHelper",
     "Win32_Networking_WinSock",
 ] }
+
+[build-dependencies]
+winresource = "0.1"
 
 [profile.release]
 opt-level = 3
